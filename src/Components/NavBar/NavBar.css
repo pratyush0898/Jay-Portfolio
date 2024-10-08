@@ -1,0 +1,30 @@
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding: 8px 68px;
+    font-size: 17px;
+    position: fixed;
+    width: 100%;
+    background: #e4f5fd;
+    top: 0; /* Keep the navbar at the top */
+}
+
+
+.NavBar .right .logo {
+    color: #000;
+}
+
+.NavBar .right .logo span {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.NavBar .left .NavLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 52px;
+}
